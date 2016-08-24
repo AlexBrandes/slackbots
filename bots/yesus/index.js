@@ -19,7 +19,7 @@ module.exports = function( app ) {
 
                 res.send( {
                     response_type: 'in_channel',
-                    message: yesus_message
+                    text: yesus_message
                 } );
             } )()
             .catch( next );
