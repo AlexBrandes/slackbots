@@ -13,7 +13,7 @@ module.exports = function( app ) {
             response_type: 'in_channel',
             text: 'Sales Gong!',
             attachments: [ {
-                image_url: 'https://m.popkey.co/a85dca/wqavR.gif'
+                image_url: 'http://i.giphy.com/l3vRm2SjzCcqh8OYw.gif'
             } ]
         } );
     } );
