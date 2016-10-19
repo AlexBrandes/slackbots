@@ -11,7 +11,10 @@ module.exports = function( app ) {
     app.get( '/sales-gong', function( req, res, next ) {
         res.send( {
             response_type: 'in_channel',
-            text: '<img src="https://m.popkey.co/a85dca/wqavR.gif" alt="Sales Gong">'
+            text: 'Sales Gong!',
+            attachments: [ {
+                image_url: 'https://m.popkey.co/a85dca/wqavR.gif'
+            } ]
         } );
     } );
 
